@@ -1,7 +1,7 @@
 import React from 'react'
 import Graphchart from './Graphchart'
 import Card from './Card'
-import { Button, Table } from 'semantic-ui-react';
+import { Button} from 'semantic-ui-react';
 
 const Dashboard = () => {
   return (

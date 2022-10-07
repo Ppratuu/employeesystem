@@ -2,6 +2,7 @@
   "name": "employeesystem",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ppratuu.github.io/employeesystem",
   "dependencies": {
     "@semantic-ui-react/css-patch": "^1.1.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,6 +11,7 @@
     "axios": "^0.27.2",
     "chart.js": "^3.9.1",
     "firebase": "^9.10.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

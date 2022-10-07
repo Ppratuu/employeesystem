@@ -42,6 +42,7 @@ function Search() {
               return value;
             }
           })
+          
           .map((item) => <h5 key={item.id}>{item.firstName} {item.lastName}</h5>)
       )}
     </div>
